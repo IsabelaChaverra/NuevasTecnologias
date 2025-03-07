@@ -24,3 +24,10 @@
 
 # if __name__ == "__main__":
 #     main()
+
+def basic_numbers():
+    numbers = [1, 2, 3, 4, 5]
+    for number in numbers:
+        print(f"Number: {number}")
+
+basic_numbers()
